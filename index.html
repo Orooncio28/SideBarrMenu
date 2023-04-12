@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- icon Stylesheet link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SideBar Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="img/Oroncio.jpg" alt="">
+                <h3>Oroncio Chacón</h3>
+                <p>Front end Developer </p>
+            </div>
+            <!-- meunu item -->
+            <ul>
+               <li>
+                <a href="#" class="active">
+                    <span class="icon"><i class="fas fa-home"></i></span>
+                    <spam class="item">Home</spam>
+                </a></li>
+               <li>
+                <a href="#">
+                    <span class="icon"><i class="fas fa-desktop"></i></span>
+                    <spam class="item">My Dashboard</spam>
+                </a></li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-user-friends"></i></span>
+                        <spam class="item">Peopole</spam>
+                    </a></li>
+                <li>
+                <a href="#">
+                    <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                    <spam class="item">Perfomance</spam>
+                </a></li>
+               <li>
+                <a href="#">
+                    <span class="icon"><i class="fas fa-database"></i></span>
+                    <spam class="item">Developlment</spam>
+                </a></li>
+               <li>
+                <a href="#">
+                    <span class="icon"><i class="fas fa-chart-line"></i></span>
+                    <spam class="item">Reports</spam>
+                </a></li>
+               <li><a href="#">
+                    <span class="icon"><i class="fas fa-user-shield"></i></span>
+                    <spam class="item">Admin</spam>
+                </a></li>
+               <li>
+                <a href="#">
+                    <span class="icon"><i class="fas fa-cog"></i></span>
+                    <spam class="item">Settings</spam>
+                </a></li>
+        </div>
+        <!--Top menu bar-->
+        <div class="section">
+            <div class="top_navbar">
+                <div class="hambuerg">
+                    <a href=""><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--New active menu button using javascript-->
+    <script>
+        var hambuerg = document.querySelector('.hamburger');
+        hambuerg/addEventListener('click', function(){
+            document.querySelector('body').classList.toggle('active');
+        })
+    </script>
+</body>
+</html>

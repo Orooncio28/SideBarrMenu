@@ -1,0 +1,10 @@
+font-awesome - Libraries - cdnjs - The #1 free and open ...
+
+cdnjs.com
+https://cdnjs.com › Libraries
+·
+Traducir esta página
+The iconic SVG, font, and CSS toolkit - Simple. Fast. Reliable. Content delivery at its finest. cdnjs is a free and open-source CDN service trusted by over ...
+Visitaste esta página el 21/03/23.
+
+esta es una libreria para colocar favicon en un documento html bastante facil
